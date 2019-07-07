@@ -8,7 +8,7 @@ p "例) 50"
 target = STDIN.gets.chomp.to_i
 
 
-def binary_search(ary: ,target: )
+def binary_search(ary: , target: )
   left = 0
   length = ary.size
   right = length - 1
@@ -20,7 +20,7 @@ def binary_search(ary: ,target: )
     elsif target > ary[mid]
       left = mid + 1
     else
-      right = mid - 1
+      right = mid - 1　
     end
   end
   p "#{mid+1}番目にありました"
